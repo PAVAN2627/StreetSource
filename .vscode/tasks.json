@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start XAMPP Server",
+			"type": "shell",
+			"command": "start",
+			"args": [
+				"http://localhost/StreetSource/"
+			],
+			"group": "test",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
